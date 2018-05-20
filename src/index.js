@@ -52,14 +52,14 @@ class Modal extends Component {
 
     render() {
         const { 
-            text,
+            msg,
             textStyleProps, 
             onBtnPress, 
             visible, 
             btnText, 
             modalStyle, 
             position,
-            btnTextStyleProps
+            btnMsgStyleProps
         } = this.props;
         const { textStyle, container, btnBox, btnTextStyle } = styles;
         const { showModal } = this.state;
@@ -82,7 +82,7 @@ class Modal extends Component {
             <Animated.View style={[container, { 
                 transform: [ { translateY: translateY }]
             }, modalStyle, modalPosition]}>
-                <Text style={[textStyle, textStyleProps]}>{text}</Text>
+                <Text style={[textStyle, textStyleProps]}>{msg}</Text>
                 {onBtnPress && 
                     <TouchableNativeFeedback
                         background={
@@ -93,7 +93,7 @@ class Modal extends Component {
                         onPress={onBtnPress}
                     >   
                         <View style={btnBox}>
-                            <Text style={[btnTextStyle, btnTextStyleProps]}>{btnText}</Text>
+                            <Text style={[btnTextStyle, btnMsgStyleProps]}>{btnText}</Text>
                         </View>
                         
                     </TouchableNativeFeedback>
