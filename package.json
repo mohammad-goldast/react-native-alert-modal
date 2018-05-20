@@ -1,0 +1,18 @@
+{
+  "name": "react-native-alert-modal",
+  "version": "1.0.0",
+  "description": "An alert modal ( alert dialog in Android ) for react-native",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Modal",
+    "React-native-modal",
+    "react-native",
+    "react-native-alert",
+    "react-native-alert-modal"
+  ],
+  "author": "Mohammad Goldast",
+  "license": "MIT"
+}
