@@ -3,7 +3,7 @@ React-Native-Alert-Modal is a simple to use modal for Android &amp; IOS.
 
 ## Demo
 
-![Screenshot of RNAlertModal](https://github.com/blackhair/react-native-alert-modal/blob/master/demo/demo.gif)
+![Screenshot of RNAlertModal](https://raw.githubusercontent.com/blackhair/react-native-alert-modal/master/demo/demo.gif)
 
 ## Description
 
