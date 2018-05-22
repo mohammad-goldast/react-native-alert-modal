@@ -12,7 +12,7 @@ Soon new features like `Effects` are added.
 
 ## Installation
 
-1. Run: `$ npm install react-native-vector-icons --save`
+1. Run: `$ npm install react-native-alert-modal --save`
 2. Add: `import Modal from 'react-native-alert-modal'`
 
 ## Props
